@@ -14,7 +14,7 @@ Route::post('/posts', [PostController::class, 'store'])
     ->name('posts.store');
 
 Route::get('/create/post', function () {
-    return view('create_post');
+    return view('create');
 })
     ->name('posts.create');
 
